@@ -12,4 +12,5 @@ cursor = connection.cursor()
 cursor.execute('SELECT * FROM selenium')
 
 for row in cursor:
+	row = [x if x == None else x.encode('ascii', 'ignore').decode('ascii') for x in row ]
 	print(row)
