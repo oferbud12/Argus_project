@@ -25,9 +25,9 @@
 
 ## Instructions ##
 - [ ] download or clone the project's repository in to new directory in your computer
-- [ ] open CMD/PowerShell/Terminal from the project directory 'Argus_project'
-- [ ] run find_ip.bat- if you are using linux you should change /scraper/host_ip.txt ip to your ip
+- [ ] run find_ip.bat by double click on it- if you are using linux you should change /scraper/host_ip.txt ip to your ip
   - [ ] in the terminl write ifconfig, the ipV4 will be the addres you need to save in the host_ip.txt file
+- [ ] open CMD/PowerShell/Terminal from the project directory 'Argus_project'
 - [ ] Docker containers innit- write in the shell 'docker-compose up -d', it might take some time to download all relevant files.
 - [ ] Connect to scraper container- write in the shell 'docker exec -it scraper /bin/bash'
 - [ ] write in the new bash shell cd /Scraper
